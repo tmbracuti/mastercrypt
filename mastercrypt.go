@@ -42,7 +42,7 @@ func main() {
 	}
 	
 	pwd := os.Args[1]
-	fmt.Printf("encrypting password %s...\n", pwd)
+	fmt.Printf("encrypting your password %s...\n", pwd)
 
 	hexciphertxt := StarfishCFBEncrypter(pwd)
 	fmt.Printf("use this cipher text: %s\n", hexciphertxt)
